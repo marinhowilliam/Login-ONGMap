@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 
-
 body{
     display: flex;
     align-items: center;
@@ -32,7 +31,7 @@ body{
     align-items: center;
     justify-content: center;
     position: relative;
-    width: 30%;
+    width: 35%;
     height: 500px;
     gap: 30px;
     border: 1px  black;
@@ -43,11 +42,12 @@ body{
 
 .containerLogin > input{
     height: 2rem;
-    width: 35%;
+    width: 40%;
     border-radius: 8px;
     border: none;
     padding: 8px 16px;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    outline: none;
 }
 
 button{
@@ -58,4 +58,28 @@ button{
     padding: 8px 16px;
     border: none;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+}
+
+.cadastro{
+    height: 35px;
+    width: 90%;
+    display: flex;
+    justify-content: end;
+}
+
+.cadastro > a{
+   /* text-decoration: none;*/
+    margin: 8px 16px;
+    font-family: 'Rubik' sans-serif;
+    font-weight: 700;
+    color: #00a4e4;
+}
+
+
+button:hover{
+    background: rgb(239, 255, 255);
+}
+
+.cadastro > a:hover{
+    font-size: 18px;
 }
